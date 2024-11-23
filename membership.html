@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Membership</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="path/to/font-awesome/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+    <!-- Favicon -->
+    <link rel="icon" href="https://cdn.pixabay.com/photo/2017/09/01/12/58/canada-2704154_1280.jpg" type="image/png">
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <nav class="navbar">
+        <div class="logo-container">
+          <a href="index.html" class="logo-link">
+            <img src="https://cdn.pixabay.com/photo/2017/09/01/12/58/canada-2704154_1280.jpg" alt="Logo" class="logo-image">
+            <h1 class="logo">Habiganj Association of Toronto</h1>
+          </a>
+        </div>
+        <button class="hamburger" onclick="toggleNavbar()">
+          <i class="ri-menu-line"></i>
+        </button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="committee.html">Committee</a></li>
+        <li><a href="members.html">Members</a></li>
+        <li><a href="membership.html"class="active">Membership</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="membership-section" style="margin-top: 50px;">
+    <div class="membership-container">
+      <h2>Membership Registration Form</h2>
+      <form action="#" method="POST" class="membership-form">
+        <!-- Full Name -->
+        <div class="form-group">
+          <label for="full-name">Full Name:</label>
+          <input type="text" id="full-name" name="full-name" placeholder="Enter your full name" required>
+        </div>
+  
+        <!-- Father's Name -->
+        <div class="form-group">
+          <label for="father-name">Father's Name:</label>
+          <input type="text" id="father-name" name="father-name" placeholder="Enter your father's name" required>
+        </div>
+  
+        <!-- Mother's Name -->
+        <div class="form-group">
+          <label for="mother-name">Mother's Name:</label>
+          <input type="text" id="mother-name" name="mother-name" placeholder="Enter your mother's name" required>
+        </div>
+  
+        <!-- Date of Birth -->
+        <div class="form-group">
+          <label for="dob">Date of Birth:</label>
+          <input type="date" id="dob" name="dob" required>
+        </div>
+  
+        <!-- Full Address -->
+        <div class="form-group">
+          <label for="full-address">Full Address:</label>
+          <input type="text" name="apartment-unit" placeholder="Apartment/Unit" required>
+          <input type="text" name="street-no" placeholder="Street No" required>
+          <input type="text" name="street-name" placeholder="Street Name" required>
+          <input type="text" name="city-town" placeholder="City/Town" required>
+          <input type="text" name="province-state" placeholder="Province/State/Territory" required>
+          <input type="text" name="postal-code" placeholder="Postal Code/Zip" required>
+        </div>
+  
+        <!-- Address of Habiganj -->
+        <div class="form-group">
+          <label for="habiganj-address">Address of Habiganj:</label>
+          <input type="text" name="address" placeholder="Address" required>
+          <input type="text" name="union" placeholder="Union" required>
+          <input type="text" name="police-station" placeholder="Police Station" required>
+          <input type="text" name="district" placeholder="District" required>
+        </div>
+  
+        <!-- Mobile Number -->
+        <div class="form-group">
+          <label for="mobile-number">Mobile Number:</label>
+          <input type="text" id="mobile-number" name="mobile-number" placeholder="Enter your mobile number" required>
+        </div>
+  
+        <!-- Email -->
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+        </div>
+  
+        <!-- Submit Button -->
+        <button type="submit" class="submit-btn">Submit</button>
+      </form>
+    </div>
+  </section>
+
+<!-- Footer Section -->
+<footer class="footer">
+    <div class="footer-content">
+      <!-- Logo Section -->
+      <div class="footer-logo">
+        <img src="https://cdn.pixabay.com/photo/2017/09/01/12/58/canada-2704154_1280.jpg" alt="Habiganj Association of Toronto Logo">
+      </div>
+  
+      <!-- Contact Info -->
+      <div class="footer-column">
+        <h4>Contact Info</h4>
+        <ul class="footer-links">
+          <li><i class="ri-phone-line"></i> +1 416-555-1234</li>
+          <li><i class="ri-mail-line"></i> info@habiganjassociation.ca</li>
+          <li><i class="ri-map-pin-line"></i> 123 Main Street, Toronto, ON M5G 1X5, Canada</li>
+        </ul>
+      </div>
+  
+      <!-- Useful Links -->
+      <div class="footer-column">
+        <h4>Useful Links</h4>
+        <ul class="footer-links">
+          <li><a href="#">Community Events</a></li>
+          <li><a href="#">Volunteer Opportunities</a></li>
+          <li><a href="#">Membership Benefits</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+        </ul>
+      </div>
+  
+      <!-- Quick Links -->
+      <div class="footer-column">
+        <h4>Quick Links</h4>
+        <ul class="footer-links">
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="membership.html">Membership</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+      </div>
+    </div>
+  
+    <!-- Bottom Bar -->
+    <div class="footer-bottom">
+      <p>Habiganj Association of Toronto © 2024. All Rights Reserved.</p>
+      <a href="#top" class="back-to-top">
+        <i class="ri-arrow-up-s-line"></i>
+      </a>
+    </div>
+  </footer>
+
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>

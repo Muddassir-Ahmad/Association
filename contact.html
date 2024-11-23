@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="path/to/font-awesome/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+    <!-- Favicon -->
+    <link rel="icon" href="https://cdn.pixabay.com/photo/2017/09/01/12/58/canada-2704154_1280.jpg" type="image/png">
+</head>
+<body>
+  <!-- Header Section -->
+   <header>
+    <nav class="navbar">
+      <div class="logo-container">
+        <a href="index.html" class="logo-link">
+          <img src="https://cdn.pixabay.com/photo/2017/09/01/12/58/canada-2704154_1280.jpg" alt="Logo" class="logo-image">
+          <h1 class="logo">Habiganj Association of Toronto</h1>
+        </a>
+      </div>
+      <button class="hamburger" onclick="toggleNavbar()">
+        <i class="ri-menu-line"></i>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="committee.html">Committee</a></li>
+        <li><a href="members.html">Members</a></li>
+        <li><a href="membership.html">Membership</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html"class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Contact Section -->
+  <section class="contact-us" style="margin-top: 50px;">
+    <div class="contact-content">
+      <h2>Contact Us</h2>
+      <div class="contact-details">
+        <p><i class="ri-map-pin-line"></i> Address: 123 Main Street, Toronto, ON M5G 1X5, Canada</p>
+        <p><i class="ri-phone-line"></i> Phone: +1 (416) 555-1234</p>
+        <p><i class="ri-mail-line"></i> Email: info@habiganjassociation.ca</p>
+      </div>
+    </div>
+
+    <!-- Map and Form Container -->
+    <div class="contact-map-form">
+      <!-- Map -->
+      <div class="map-container">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2910.038207228217!2d-79.383186!3d43.653226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4d2f06e5c0f1f1b3%3A0x1df05670b5c5fef1!2sToronto%2C%20ON!5e0!3m2!1sen!2sca!4v1693155728148!5m2!1sen!2sca"
+          width="100%"
+          height="400"
+          style="border:0;"
+          allowfullscreen=""
+          loading="lazy">
+        </iframe>
+      </div>
+
+      <!-- Contact Form -->
+      <div class="contact-form">
+        <form action="#" method="POST">
+          <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" placeholder="Your full name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="Your email address" required>
+          </div>
+          <div class="form-group">
+            <label for="number">Mobile Number</label>
+            <input type="number" id="number" name="number" placeholder="Your mobile number" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Your message" rows="3" required></textarea>
+          </div>
+          <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+
+<!-- Footer Section -->
+<footer class="footer">
+    <div class="footer-content">
+      <!-- Logo Section -->
+      <div class="footer-logo">
+        <img src="https://cdn.pixabay.com/photo/2017/09/01/12/58/canada-2704154_1280.jpg" alt="Habiganj Association of Toronto Logo">
+      </div>
+  
+      <!-- Contact Info -->
+      <div class="footer-column">
+        <h4>Contact Info</h4>
+        <ul class="footer-links">
+          <li><i class="ri-phone-line"></i> +1 416-555-1234</li>
+          <li><i class="ri-mail-line"></i> info@habiganjassociation.ca</li>
+          <li><i class="ri-map-pin-line"></i> 123 Main Street, Toronto, ON M5G 1X5, Canada</li>
+        </ul>
+      </div>
+  
+      <!-- Useful Links -->
+      <div class="footer-column">
+        <h4>Useful Links</h4>
+        <ul class="footer-links">
+          <li><a href="#">Community Events</a></li>
+          <li><a href="#">Volunteer Opportunities</a></li>
+          <li><a href="#">Membership Benefits</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+        </ul>
+      </div>
+  
+      <!-- Quick Links -->
+      <div class="footer-column">
+        <h4>Quick Links</h4>
+        <ul class="footer-links">
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="membership.html">Membership</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+      </div>
+    </div>
+  
+    <!-- Bottom Bar -->
+    <div class="footer-bottom">
+      <p>Habiganj Association of Toronto © 2024. All Rights Reserved.</p>
+      <a href="#top" class="back-to-top">
+        <i class="ri-arrow-up-s-line"></i>
+      </a>
+    </div>
+  </footer>
+
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>
